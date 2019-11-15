@@ -1,0 +1,15 @@
+<ion-view title="Ghimel lista nomi" id="page9">
+  <ion-content padding="true" class="has-header">
+    <form id="ghimelListaNomi-form1" class="list">
+      <label class="item item-input" id="ghimelListaNomi-search1">
+        <i class="icon ion-search placeholder-icon"></i>
+        <input type="search" placeholder="" ng-model="data.search" ng-change="search()">
+      </label>
+    </form>
+
+    <ion-item id="ghimelListaNomi-list-item2" ui-sref="ctutorial({&quot;videokey&quot;:&quot;&quot;+ctutorial.key+&quot;&quot;})" ng-repeat="ctutorial in narrowed_ctutorials">{{ctutorial.termine}} - {{ctutorial.traslitterazione}}</ion-item>
+ 
+   
+       
+  </ion-content>
+</ion-view>

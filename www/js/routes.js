@@ -65,6 +65,16 @@ angular.module('app.routes', [])
     }
   })
 
+  .state('tabsController.ghimelListaNomi', {
+    url: '/page9',
+    views: {
+      'tab1': {
+        templateUrl: 'templates/ghimelListaNomi.html',
+        controller: 'ghimelListaNomiCtrl'
+      }
+    }
+  })
+
   .state('tutorial', {
     url: '/page6',
     params: {
@@ -86,6 +96,19 @@ angular.module('app.routes', [])
       }
     
   )
+
+
+  .state('ctutorial', {
+    url: '/page10',
+    params: {
+      videokey: ""		
+  },
+        templateUrl: 'templates/ctutorial.html',
+        controller: 'ctutorialCtrl'
+      }
+    
+  )
+
 
 $urlRouterProvider.otherwise('/page1/page2')
 

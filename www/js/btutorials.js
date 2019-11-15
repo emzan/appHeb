@@ -6,63 +6,25 @@ angular.module('btutorials', [])
     
     var btutorials_list = [
         {
-          key: '’āḇ',
-          termine: 'אָב',
-          traslitterazione: '’āḇ',
-          significato: 'padre;',
-          grammatica: 'n. m.',
-          altro: 'cstr. אַב - pl. m. אָבוֹת - cstr. אֲבוֹת',
+          key: 'bāraḥ',
+          termine: 'בָּרַח',
+          traslitterazione: 'bāraḥ',
+          significato: 'fuggire, scappare;',
+          grammatica: 'v.',
+          altro: 'Qal, qatal, 3 ms, fuggì, scappò;',
           id: '1'
         },
         {
-            key: '’êḵāh',
-            termine: 'אֵיכָה',
-            traslitterazione: '’êḵāh',
-            significato: 'come? come mai?;',
-            grammatica: 'particella interrogativa',
-            altro: '',
-            id: '2'
-        },
-       
-        
-        {
-            key: '’ên',
-            termine: 'אֵין',
-            traslitterazione: '’ên',
-            significato: 'non c’è, non ci sono, non esiste;',
-            grammatica: 'particella di negazione',
-            altro: '',
-            id: '3'
-        },
-        {
-            key: '’îš',
-            termine: 'אִישׁ',
-            traslitterazione: '’îš',
-            significato: 'uomo, marito, maschio;',
-            grammatica: 'n. m.',
-            altro: 'cstr. אִישׁ - pl. ass. אֲנָשִׁים - cstr. אַנְשֵׁי',
-            id: '4'
-        },
-        {
-            key: '’āḵal',
-            termine: 'אָכַל',
-            traslitterazione: '’āḵal',
-            significato: 'mangiare;',
-            grammatica: 'v.',
-            altro: 'Qal, qatal, 3 ms, mangiò; ptc. att. אֹכֵל;',
-            id: '5'
-        },
-        {
-            key: '’æmeṯ',
-            termine: 'אֱמֶת',
-            traslitterazione: '’æmeṯ',
-            significato: 'verità, affidabilità, correttezza, fedeltà, costanza;',
+            key: 'beṯûlāh',
+            termine: 'בְּתוּלָה',
+            traslitterazione: 'beṯûlāh',
+            significato: 'vergine;',
             grammatica: 'n. f.',
-            altro: 'cstr. אֱמֶת',
-            id: '6'
+            altro: 'cstr. בְּתוּלַת - pl. f. בְּתוּלוֹת',
+            id: '2'
         }
-        
        
+        
         
       ];
       
