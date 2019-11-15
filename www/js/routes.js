@@ -55,6 +55,16 @@ angular.module('app.routes', [])
     }
   })
 
+  .state('tabsController.bethListaNomi', {
+    url: '/page7',
+    views: {
+      'tab1': {
+        templateUrl: 'templates/bethListaNomi.html',
+        controller: 'bethListaNomiCtrl'
+      }
+    }
+  })
+
   .state('tutorial', {
     url: '/page6',
     params: {
@@ -62,6 +72,17 @@ angular.module('app.routes', [])
   },
         templateUrl: 'templates/tutorial.html',
         controller: 'tutorialCtrl'
+      }
+    
+  )
+
+  .state('btutorial', {
+    url: '/page8',
+    params: {
+      videokey: ""		
+  },
+        templateUrl: 'templates/btutorial.html',
+        controller: 'btutorialCtrl'
       }
     
   )

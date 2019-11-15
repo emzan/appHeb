@@ -1,0 +1,15 @@
+<ion-view title="Beth lista nomi" id="page7">
+  <ion-content padding="true" class="has-header">
+    <form id="bethListaNomi-form1" class="list">
+      <label class="item item-input" id="bethListaNomi-search1">
+        <i class="icon ion-search placeholder-icon"></i>
+        <input type="search" placeholder="" ng-model="data.search" ng-change="search()">
+      </label>
+    </form>
+
+    <ion-item id="bethListaNomi-list-item2" ui-sref="btutorial({&quot;videokey&quot;:&quot;&quot;+btutorial.key+&quot;&quot;})" ng-repeat="btutorial in narrowed_btutorials">{{btutorial.termine}}</ion-item>
+ 
+   
+       
+  </ion-content>
+</ion-view>
