@@ -59,7 +59,13 @@ function ($scope, $stateParams, Tutorials) {
 function ($scope, $stateParams, Tutorials) {
 
     $scope.video = Tutorials.keys[$stateParams.videokey];
+    $scope.$on('$ionicView.beforeEnter', function (event, viewData) {
+        viewData.enableBack = true;
+    });
 
 
-}])
+}
+
+
+])
  
