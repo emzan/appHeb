@@ -55,15 +55,16 @@ angular.module('app.routes', [])
     }
   })
 
-  .state('tabsController.tutorial', {
+  .state('tutorial', {
     url: '/page6',
-    views: {
-      'tab1': {
+    params: {
+      videokey: ""		
+  },
         templateUrl: 'templates/tutorial.html',
         controller: 'tutorialCtrl'
       }
-    }
-  })
+    
+  )
 
 $urlRouterProvider.otherwise('/page1/page2')
 
